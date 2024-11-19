@@ -17,10 +17,10 @@ export class ChildComponent {
   // }
 
   //Second part
-  @Input() public parentsMsg:any
+  // @Input() public parentsMsg:any
 
-  @Output() public sendEvent=new EventEmitter()
-  public sendMsg(){
-    this.sendEvent.emit("Hello from Child")
-  }  
+  // @Output() public sendEvent=new EventEmitter()
+  // public sendMsg(){
+  //   this.sendEvent.emit("Hello from Child")
+  // }  
 }
