@@ -1,1 +1,24 @@
-<router-outlet />
+<h1 [align]="'center'">Assignment 8</h1>
+
+<!-- First part -->
+<!-- <app-child (sendEvent)="ChildMssg=$event"></app-child> -->
+<!-- <h1>{{ChildMssg}}</h1> -->
+
+<!-- Second part -->
+<!-- <h2 [style.font-family]="'helvetica'" [style.font-size]="'xx-large'">Parent to Child component communication - </h2>
+<app-child [parentsMsg]="msgForChild" (sendEvent)="msgFromChild=$event"></app-child>
+
+ <h2>Child says: {{msgFromChild}}</h2>
+<router-outlet /> -->
+
+<!-- Third part -->
+ <!-- <app-child></app-child>
+ <textarea placeholder="Enter message to be printed" [(ngModel)]="data"></textarea>
+ <h1>{{data}}</h1>
+ <h1>Length of entered string is: {{strLen()}}</h1> -->
+
+ <!-- Fourth part -->
+<textarea placeholder="Enter message" #newMsg></textarea>
+<p></p>
+<button (click)="calcLen(newMsg.value)">Get length</button>
+<h1>Length is: {{msgLength}}</h1>

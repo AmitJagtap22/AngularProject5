@@ -1,0 +1,14 @@
+<!-- <h2>Child to Parent component communication: </h2> -->
+
+<!-- First part -->
+<!-- <textarea placeholder="Enter message to be passed" #newMsg></textarea> -->
+<!-- <p></p> -->
+<!-- <button (click)="sendMessage(newMsg.value)">Send to Parent</button> -->
+
+<!-- Second part -->
+<h2>{{"Parent says: "+parentsMsg}}</h2>
+
+<p></p>
+
+<h2 [style.font-family]="'helvetica'" [style.font-size]="'xx-large'">Child to Parent component communication - </h2>
+<button (click)="sendMsg()">Send to Parent</button>
